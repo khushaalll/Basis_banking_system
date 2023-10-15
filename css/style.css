@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.intro {
+  background: gray;
+}
+h1 {
+  color: burlywood;
+  font-weight: bold;
+}
+h3 {
+  color: burlywood;
+}
+button {
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  background: #7b8788;
+  color: white;
+  letter-spacing: 1.5px;
+  font-size: 15px;
+}
+button:hover,
+h1:hover {
+  transform: scale(1.1);
+}
+button:hover {
+  background-color: blue;
+}
+footer {
+  color: #586776;
+  background-color: #eaf0f1;
+  letter-spacing: 0.5px;
+}
+footer p {
+  margin: 0;
+  font-size: 15px;
+}
